@@ -1,6 +1,6 @@
 
 import { configureStore } from '@reduxjs/toolkit'
-import { CreateProduct, ProductsReducer, Product_detial_reducer , ProductReducer, newReviewReducer, Top_Product_Reducer} from './Reducers/ProductReducer';
+import { CreateProduct, ProductsReducer, Product_detial_reducer, newReviewReducer, Top_Product_Reducer} from './Reducers/ProductReducer';
 import { CartReducer } from './Reducers/CartReducer';
 import { wishReducer } from './Reducers/WishReducer';
 import { AlluserReducer, UserReducer } from './Reducers/UserReducer';

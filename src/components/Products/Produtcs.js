@@ -87,19 +87,16 @@ const Produtcs = () => {
         { id: 1, label: '1 and above' },
         { id: 2, label: '2 and above' },
         { id: 3, label: "3 and above" },
-        { id: 4, label: "4 and above" },
+        { id: 4, label: "4 and above" }
         // Add more checkboxes as needed
     ];
 
     const checkboxes = [
         { id: 1, label: 'Electronics' },
         { id: 2, label: 'Shoes' },
-        { id: 3, label: "Women's Clothing" },
+        { id: 3, label: "Women's Clothing" }
         // Add more checkboxes as needed
     ];
-
-
-
 
     useEffect(() => {
         if (products) {
@@ -107,10 +104,8 @@ const Produtcs = () => {
         }
     }, [products])
 
-
-
     useEffect(() => {
-        dispatch(getproduct(key, min, max, page, category, rating ,  'SearchProducts'))
+        dispatch(getproduct(key, min, max, page, category, rating,  'SearchProducts'))
         window.scrollTo(0, 0)
     }, [min, dispatch, key, page, max, category , rating])
 

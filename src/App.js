@@ -20,9 +20,9 @@ import UpdateProduct from "./components/Admin/UpdateProduct";
 import UsersList from "./components/Admin/UsersList";
 import PaymentSucess from "./components/orders/PaymentSucess";
 import OrderDetial from "./components/orders/OrderDetial";
-import { useDispatch, useSelector } from "react-redux";
+import { useDispatch } from "react-redux";
 import { useEffect } from "react";
-import { Clear_Errors, LoadUser } from "./actions/UserActions";
+import { LoadUser } from "./actions/UserActions";
 import Invoice from "./components/Invoice/Invoice";
 import ProtectedRoutes from "./Routes/ProtectedRoutes";
 

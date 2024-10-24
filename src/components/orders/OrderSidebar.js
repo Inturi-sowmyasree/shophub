@@ -1,5 +1,5 @@
 import { Checkbox,  FormControlLabel, FormGroup } from '@mui/material'
-import React, {  useCallback, useEffect, useState } from 'react'
+import React, { useEffect, useState } from 'react'
 
 const OrderSidebar = ({ orderlist , setOrderlist , orders}) => {
 
@@ -15,7 +15,7 @@ const OrderSidebar = ({ orderlist , setOrderlist , orders}) => {
     const checkboxes = [
         { id: 1, label: 'processing' },
         { id: 2, label: 'delivered' },
-        { id: 3, label: 'Canceled' },
+        { id: 3, label: 'Canceled' }
         // Add more checkboxes as needed
     ];
     

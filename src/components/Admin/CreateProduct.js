@@ -3,10 +3,10 @@ import DeleteIcon from '@mui/icons-material/Delete';
 import CloudUploadIcon from '@mui/icons-material/CloudUpload';
 import RemoveRedEyeIcon from '@mui/icons-material/RemoveRedEye';
 import './createproduct.css'
-import React, { useEffect, useRef, useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux';
 import { CreateProducts } from '../../actions/ProductActions';
-import { enqueueSnackbar, useSnackbar } from "notistack";
+import { enqueueSnackbar } from "notistack";
 
 
 const CreateProduct = () => {
