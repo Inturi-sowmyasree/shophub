@@ -1,0 +1,27 @@
+/* header css file */
+
+
+.dropdown::before{
+   content: '';
+   height: 20px;
+   width: 20px;
+   background-color: white;
+   transform: rotate(45deg);
+   position: absolute;
+   left: 44%;
+   top: -.5rem;
+   border-radius: .01rem;
+   z-index: -1;
+}
+#header_color{
+   background-color: rgba(0, 0, 0,0.9);
+}
+#login-button{
+   border-radius: 50px;
+}
+#input-search-header{
+   border-radius: 50px;
+}
+#title{
+   margin-right:6% ;
+}
